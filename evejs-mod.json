@@ -1,0 +1,37 @@
+{
+  "author": {
+    "id": "au-mva40uiw90kt",
+    "keyId": "01ed0fb1c32c",
+    "name": "HRSKNK"
+  },
+  "category": "玩法",
+  "changelog": "打开蓝图（工业）列表时同一蓝图被重复查两遍，蓝图多时慢。修复后只查一遍，打开更快。",
+  "conflicts": [],
+  "delisted": false,
+  "description": "打开蓝图（工业）列表时同一蓝图被重复查两遍，蓝图多时慢。修复后只查一遍，打开更快。",
+  "displayName": "蓝图/工业列表打开更快",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo/releases/download/v1.0.0/evejs-blueprint-list-memo-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "0.12.9"
+  ],
+  "featured": false,
+  "highlights": [],
+  "history": [],
+  "id": "evejs-blueprint-list-memo",
+  "publishedAt": "2026-10-16",
+  "readme": [
+    "一次 GetBlueprintDataByOwner 会为每个蓝图实例解析状态/作业/位置两次（访问检查 + 载荷构建），蓝图很多时重复读取与层级遍历明显。本模组在一次列表调用内做记忆化，语义不变。"
+  ],
+  "repo": "https://github.com/zhang-xzh/evejs-mod-evejs-blueprint-list-memo",
+  "requiresRestart": true,
+  "sha256": "d6466f1be8b4b6a52053d5d3e93480f2bddbf4d9f3d3b4c15896a3792fd19d93",
+  "sizeBytes": 5682,
+  "tags": [],
+  "version": "1.0.0"
+}
